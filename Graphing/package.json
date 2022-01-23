@@ -1,0 +1,14 @@
+{
+  "name": "containerized_graphing_app",
+  "version": "1.0.0",
+  "description": "Node.js in Container",
+  "author": "Jakub Micanek <jmicanek@redhat.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
+

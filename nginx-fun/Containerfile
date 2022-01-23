@@ -1,8 +1,0 @@
-FROM docker.io/library/nginx
-
-# Copy static content
-COPY ./www /var/www
-# Copy images
-COPY ./images /var/images
-# Copy nginx config file
-COPY ./nginx.conf /etc/nginx/nginx.conf
